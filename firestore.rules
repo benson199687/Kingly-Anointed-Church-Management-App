@@ -1,0 +1,150 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // 1. Global Catch-All Deny Net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // 2. Global Safety and Validation Helpers
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    function getUserRole() {
+      return getUserData().role;
+    }
+
+    function isPastorOrAdmin() {
+      return isSignedIn() && (getUserRole() == "pastor" || getUserRole() == "admin");
+    }
+
+    function isLeader() {
+      return isSignedIn() && (getUserRole() == "pastor" || getUserRole() == "admin" || getUserRole() == "elder" || getUserRole() == "deacon");
+    }
+
+    // 3. Collection Rules
+
+    // Churches Collection
+    match /churches/{churchId} {
+      allow read: if isSignedIn();
+      allow write: if isPastorOrAdmin() && isValidId(churchId);
+    }
+
+    // Members Collection
+    match /members/{memberId} {
+      allow read: if isSignedIn();
+      allow write: if isLeader() && isValidId(memberId);
+    }
+
+    // Users Collection (Accounts)
+    match /users/{userId} {
+      allow read: if isSignedIn() && (request.auth.uid == userId || getUserRole() == "admin" || getUserRole() == "pastor");
+      allow create: if isSignedIn() && (request.auth.uid == userId || getUserRole() == "admin");
+      allow update: if isSignedIn() && request.auth.uid == userId && (
+        // Prevent modifying role or administrative fields unless admin
+        (!incoming().diff(existing()).affectedKeys().hasAny(["role", "mfaEnabled"])) || getUserRole() == "admin"
+      );
+      allow delete: if isPastorOrAdmin();
+    }
+
+    // Events Collection
+    match /events/{eventId} {
+      allow read: if isSignedIn();
+      allow write: if isLeader() && isValidId(eventId);
+    }
+
+    // Sermons Collection
+    match /sermons/{sermonId} {
+      allow read: if isSignedIn();
+      allow write: if isLeader() && isValidId(sermonId);
+    }
+
+    // Prayer Requests Collection
+    match /prayerRequests/{requestId} {
+      allow read: if isSignedIn() && (
+        !existing().private || 
+        existing().member == getUserData().name || 
+        isLeader()
+      );
+      allow create: if isSignedIn() && isValidId(requestId) && incoming().member == getUserData().name;
+      allow update: if isSignedIn() && (
+        existing().member == getUserData().name || 
+        isLeader()
+      );
+      allow delete: if isLeader() || (existing().member == getUserData().name);
+    }
+
+    // Announcements Collection
+    match /announcements/{announcementId} {
+      allow read: if isSignedIn();
+      allow write: if isLeader() && isValidId(announcementId);
+    }
+
+    // Transactions / Financials Ledger
+    match /transactions/{txId} {
+      allow read: if isLeader() || (isSignedIn() && existing().submittedBy == getUserData().name);
+      allow create: if isSignedIn() && isValidId(txId) && (
+        isLeader() || (incoming().type == "income" && incoming().status == "pending_mobile_money" && incoming().submittedBy == getUserData().name)
+      );
+      allow update: if isLeader();
+      allow delete: if isPastorOrAdmin();
+    }
+
+    // Attendance Collection
+    match /attendance/{attendanceId} {
+      allow read: if isLeader();
+      allow write: if isLeader() && isValidId(attendanceId);
+    }
+
+    // Tasks Collection
+    match /tasks/{taskId} {
+      allow read: if isSignedIn();
+      allow write: if isLeader() && isValidId(taskId);
+    }
+
+    // Quizzes Collection
+    match /quizzes/{quizId} {
+      allow read: if isSignedIn();
+      allow write: if isLeader() && isValidId(quizId);
+    }
+
+    // Groups Collection
+    match /groups/{groupId} {
+      allow read: if isSignedIn();
+      allow write: if isLeader() && isValidId(groupId);
+    }
+
+    // Messages / Bulletins Collection
+    match /messages/{messageId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && isValidId(messageId);
+      allow update, delete: if isLeader() || (existing().from == getUserData().name);
+    }
+
+    // Notifications Collection
+    match /notifications/{notifId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && isValidId(notifId);
+      allow update: if isLeader() || (existing().fromUser == getUserData().name);
+      allow delete: if isLeader();
+    }
+  }
+}

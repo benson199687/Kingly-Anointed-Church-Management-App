@@ -1,0 +1,2255 @@
+{
+  "churches": [
+    {
+      "id": "1",
+      "name": "Church Kingly Anointed App",
+      "address": "123 Faith Ave, Lusaka, Zambia",
+      "phone": "+260 977 123 456",
+      "email": "info@gracechurch.org",
+      "denomination": "Non-denominational",
+      "color": "#3b82f6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_Ggh3GmOY5A"
+    },
+    {
+      "id": "2",
+      "name": "Church Kingly Anointed App (Kitwe Branch)",
+      "address": "456 Hope Street, Kitwe, Zambia",
+      "phone": "+260 966 234 567",
+      "email": "contact@faithassembly.org",
+      "denomination": "Pentecostal",
+      "color": "#10b981"
+    }
+  ],
+  "members": [
+    {
+      "id": "1",
+      "name": "Pastor Benson Nyirenda",
+      "email": "benson.nyirenda@goodnatureagro.com",
+      "phone": "+260 977 111111",
+      "memberSince": "2010-01-01",
+      "status": "active",
+      "role": "pastor",
+      "pastorType": "main",
+      "attendance": 100,
+      "groups": [
+        "Leadership",
+        "Theological Board"
+      ],
+      "spiritualGrowthLevel": "Spiritual Father / Pastor",
+      "xp": 1150
+    },
+    {
+      "id": "2",
+      "name": "Deaconess Celina",
+      "email": "celina@church.org",
+      "phone": "+260 977 222222",
+      "memberSince": "2018-05-12",
+      "status": "active",
+      "role": "member",
+      "attendance": 94,
+      "groups": [
+        "Leadership",
+        "Women of Faith"
+      ],
+      "spiritualGrowthLevel": "Visitor",
+      "xp": 0,
+      "classEnrollment": "",
+      "isMinistryVolunteer": false,
+      "assignedMembersLog": true,
+      "assignedAttendanceDuty": true,
+      "assignedFinanceDuty": true,
+      "spiritualGrowthNote": ""
+    },
+    {
+      "id": "3",
+      "name": "Pastor John",
+      "email": "john@church.org",
+      "phone": "+260 977 333333",
+      "memberSince": "2012-04-10",
+      "status": "active",
+      "role": "elder",
+      "attendance": 98,
+      "groups": [
+        "Leadership",
+        "Men's Fellowship"
+      ],
+      "spiritualGrowthLevel": "Disciple Maker",
+      "xp": 750
+    },
+    {
+      "id": "4",
+      "name": "Deaconess Winnie Nyirenda",
+      "email": "winnie@church.org",
+      "phone": "+260 977 444444",
+      "memberSince": "2018-03-20",
+      "status": "active",
+      "role": "deacon",
+      "attendance": 96,
+      "groups": [
+        "Leadership",
+        "Women of Faith"
+      ],
+      "spiritualGrowthLevel": "Group Shepherd",
+      "xp": 500
+    },
+    {
+      "id": "5",
+      "name": "Pastor Teddy",
+      "email": "teddy@church.org",
+      "phone": "+260 977 555555",
+      "memberSince": "2011-08-15",
+      "status": "active",
+      "role": "pastor",
+      "attendance": 99,
+      "groups": [
+        "Leadership",
+        "Theological Board"
+      ],
+      "spiritualGrowthLevel": "Spiritual Father / Pastor",
+      "xp": 900
+    },
+    {
+      "id": "6",
+      "name": "Elder Chileshe",
+      "email": "chileshe@church.org",
+      "phone": "+260 977 666666",
+      "memberSince": "2015-02-14",
+      "status": "active",
+      "role": "elder",
+      "attendance": 92,
+      "groups": [
+        "Leadership",
+        "Men's Fellowship"
+      ],
+      "spiritualGrowthLevel": "Disciple Maker",
+      "xp": 600
+    },
+    {
+      "id": "7",
+      "name": "Elder Sem",
+      "email": "sem@church.org",
+      "phone": "+260 977 777777",
+      "memberSince": "2016-11-20",
+      "status": "active",
+      "role": "elder",
+      "attendance": 90,
+      "groups": [
+        "Leadership",
+        "Men's Fellowship"
+      ],
+      "spiritualGrowthLevel": "Disciple Maker",
+      "xp": 580
+    },
+    {
+      "id": "8",
+      "name": "Deacon Mukandawile",
+      "email": "mukandawile@church.org",
+      "phone": "+260 977 888888",
+      "memberSince": "2019-07-05",
+      "status": "active",
+      "role": "deacon",
+      "attendance": 88,
+      "groups": [
+        "Leadership",
+        "Youth Ministry"
+      ],
+      "spiritualGrowthLevel": "Group Shepherd",
+      "xp": 420
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "title": "Sunday Service",
+      "date": "2026-06-29",
+      "time": "09:00",
+      "location": "Main Sanctuary",
+      "type": "service",
+      "attendees": 250,
+      "capacity": 300
+    },
+    {
+      "id": "2",
+      "title": "Youth Service",
+      "date": "2026-06-29",
+      "time": "18:00",
+      "location": "Youth Hall",
+      "type": "youth",
+      "attendees": 85,
+      "capacity": 100
+    },
+    {
+      "id": "3",
+      "title": "Wednesday Bible Study",
+      "date": "2026-07-01",
+      "time": "19:00",
+      "location": "Fellowship Hall",
+      "type": "study",
+      "attendees": 120,
+      "capacity": 150
+    },
+    {
+      "id": "4",
+      "title": "Prayer Meeting",
+      "date": "2026-07-02",
+      "time": "06:00",
+      "location": "Prayer Room",
+      "type": "prayer",
+      "attendees": 45,
+      "capacity": 50
+    },
+    {
+      "id": "5",
+      "title": "Community Outreach",
+      "date": "2026-07-04",
+      "time": "10:00",
+      "location": "City Center",
+      "type": "outreach",
+      "attendees": 60,
+      "capacity": 80
+    }
+  ],
+  "sermons": [
+    {
+      "id": "1",
+      "title": "Walking in Faith",
+      "speaker": "Pastor Benson",
+      "date": "2026-06-22",
+      "duration": "45 min",
+      "views": 234,
+      "category": "Faith",
+      "scripture": "Hebrews 11:1-6",
+      "videoUrl": "https://www.youtube.com/watch?v=DjrvfRRIdNo",
+      "notes": ""
+    },
+    {
+      "id": "2",
+      "title": "The Power of Prayer",
+      "speaker": "Pastor Benson",
+      "date": "2026-06-15",
+      "duration": "38 min",
+      "views": 189,
+      "category": "Prayer",
+      "scripture": "Matthew 6:5-15"
+    },
+    {
+      "id": "3",
+      "title": "Love Your Neighbor",
+      "speaker": "Elder James",
+      "date": "2026-06-08",
+      "duration": "42 min",
+      "views": 156,
+      "category": "Love",
+      "scripture": "Luke 10:25-37"
+    },
+    {
+      "id": "4",
+      "title": "Finding Peace in Chaos",
+      "speaker": "Pastor Benson",
+      "date": "2026-06-01",
+      "duration": "40 min",
+      "views": 198,
+      "category": "Peace",
+      "scripture": "Philippians 4:6-7"
+    },
+    {
+      "id": "1782861090804",
+      "title": "Love and Kindness",
+      "speaker": "Pastor Benson Nyirenda",
+      "date": "2026-06-30",
+      "duration": "40 min",
+      "category": "Theology & Christian Living",
+      "scripture": "John 3:16",
+      "content": "# Love and Kindness: The Heart of John 3:16\\n\\n## Introduction\\nJohn 3:16 is arguably the most famous verse in the entire Bible. Yet, its familiarity can sometimes dull our appreciation of its profound depth. At its core, this verse is a declaration of God's radical love and kindness towards a broken world. The Greek word used here for love is *Agape*—a love that is not based on the worthiness of the object, but on the character of the giver. It is a sacrificial, active love. Today, we will explore the three dimensions of this divine love and how it calls us to live lives characterized by kindness.\\n\\n## 1. The Magnitude of God's Love ('For God so loved the world...')\\n- **The Scope of Love:** The 'world' (Greek: *cosmos*) represents humanity in its fallen, rebellious state. God did not love a perfect world; He loved a broken one.\\n- **Unconditional Nature:** God's love is universal and inclusive. It transcends cultural, racial, and moral boundaries.\\n- **Illustration:** Think of the vastness of the ocean. A child can play on the shore and dip their toes in, while a massive ship can navigate its deepest trenches. God's love is similarly vast—accessible to the simplest faith, yet deep enough to cover the greatest of sins.\\n\\n## 2. The Action of God's Kindness ('...that He gave His only begotten Son...')\\n- **Love as an Action:** Love is not merely a sentiment or feeling; it is an action. True kindness is love in work clothes. God's response to our need was giving.\\n- **The Ultimate Sacrifice:** He gave His 'only begotten Son' (Greek: *monogenes*, meaning unique, one-of-a-kind). This represents the ultimate, irreplaceable sacrifice.\\n- **Illustration:** Imagine a wealthy benefactor who hears of a family in deep debt. Instead of just writing a sympathetic letter, the benefactor sells his own inheritance to pay off their debt. God did not just look down with pity; He personally entered our suffering to pay our debt.\\n\\n## 3. The Promise of Eternal Security ('...that whoever believes in Him should not perish but have everlasting life.')\\n- **The Invitation:** The word 'whoever' opens the door to everyone. There is no background too dark, no sin too deep that excludes someone from this promise.\\n- **The Deliverance:** Believers are rescued from 'perishing'—eternal separation from the source of life and love.\\n- **The Reward:** 'Everlasting life' is not just about duration (living forever) but quality (living in perfect communion with God starting now).\\n- **Illustration:** Imagine a search and rescue team throwing a life ring to a drowning swimmer. The swimmer doesn't need to earn the rescue; they simply must trust the rope and hold on. Belief is the act of holding onto the lifeline of Christ.\\n\\n## Conclusion and Application\\nGod's love is the ultimate model of kindness. It is unconditional, sacrificial, and life-giving. As recipients of this immense love, we are called to be conduits of it.\\n\\n**Call to Action:**\\n1. **Receive:** If you haven't, accept the lifeline of God's love today.\\n2. **Reflect:** Think of one person in your life who is difficult to love. Commit to showing them unconditional kindness this week, reflecting the *Agape* love God showed us.\\n3. **Share:** Do not keep this good news to yourself. Tell someone this week about the hope found in John 3:16.",
+      "views": 0,
+      "status": "approved",
+      "imageUrl": "https://images.unsplash.com/photo-1544427920-c49ccfb85579?w=600&auto=format&fit=crop&q=60"
+    }
+  ],
+  "prayerRequests": [
+    {
+      "id": "1",
+      "member": "John Doe",
+      "category": "Health",
+      "request": "Please pray for my mother's recovery from surgery.",
+      "date": "2026-06-24",
+      "status": "active",
+      "prayers": 45,
+      "private": false
+    },
+    {
+      "id": "2",
+      "member": "Sarah Johnson",
+      "category": "Family",
+      "request": "Praying for unity in my family and restoration of broken relationships.",
+      "date": "2026-06-23",
+      "status": "active",
+      "prayers": 32,
+      "private": false
+    },
+    {
+      "id": "3",
+      "member": "Michael Brown",
+      "category": "Work",
+      "request": "Seeking God's guidance for a new job opportunity.",
+      "date": "2026-06-22",
+      "status": "answered",
+      "prayers": 28,
+      "private": false
+    },
+    {
+      "id": "4",
+      "member": "Anonymous",
+      "category": "Personal",
+      "request": "Going through a difficult season. Need prayers for strength and peace.",
+      "date": "2026-06-21",
+      "status": "active",
+      "prayers": 56,
+      "private": true
+    }
+  ],
+  "announcements": [
+    {
+      "id": "1",
+      "title": "Annual Church Fundraiser",
+      "category": "Events",
+      "content": "Join us for our annual fundraiser on July 20th. All proceeds go towards the new building project.",
+      "date": "2026-06-23",
+      "pinned": true,
+      "expires": "2026-07-20",
+      "likes": [
+        "Pastor Benson Nyirenda"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Youth Camp Registration Open",
+      "category": "Youth",
+      "content": "Registration for the annual youth camp is now open. Limited spots available!",
+      "date": "2026-06-20",
+      "pinned": false,
+      "expires": "2026-07-10"
+    },
+    {
+      "id": "3",
+      "title": "Prayer Chain Request",
+      "category": "Prayer",
+      "content": "Sister Grace is undergoing surgery. Please remember her in your prayers this week.",
+      "date": "2026-06-18",
+      "pinned": false,
+      "expires": null
+    },
+    {
+      "id": "4",
+      "title": "New Deacon Ordination",
+      "category": "General",
+      "content": "Join us next Sunday as we ordain our new deacon. A reception will follow the service.",
+      "date": "2026-06-15",
+      "pinned": false,
+      "expires": "2026-06-29"
+    }
+  ],
+  "finances": {
+    "income": [
+      {
+        "id": "1",
+        "type": "income",
+        "category": "Tithe",
+        "amount": 5000,
+        "date": "2026-06-24",
+        "name": "John Doe"
+      },
+      {
+        "id": "2",
+        "type": "income",
+        "category": "Offering",
+        "amount": 3500,
+        "date": "2026-06-22",
+        "name": "Anonymous"
+      },
+      {
+        "id": "3",
+        "type": "income",
+        "category": "Pledge",
+        "amount": 2000,
+        "date": "2026-06-21",
+        "name": "Sarah Johnson"
+      }
+    ],
+    "expenses": [
+      {
+        "id": "4",
+        "type": "expense",
+        "category": "Utilities",
+        "amount": 1200,
+        "date": "2026-06-23",
+        "name": "ZESCO"
+      },
+      {
+        "id": "5",
+        "type": "expense",
+        "category": "Sound & Media",
+        "amount": 800,
+        "date": "2026-06-22",
+        "name": "Tech Supplies"
+      }
+    ]
+  },
+  "attendance": [
+    {
+      "week": "Week 1",
+      "sunday": 245,
+      "midweek": 120,
+      "youth": 85
+    },
+    {
+      "week": "Week 2",
+      "sunday": 268,
+      "midweek": 135,
+      "youth": 92
+    },
+    {
+      "week": "Week 3",
+      "sunday": 252,
+      "midweek": 128,
+      "youth": 88
+    },
+    {
+      "week": "Week 4",
+      "sunday": 280,
+      "midweek": 142,
+      "youth": 95
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Visit Sister Grace in hospital",
+      "assignee": "Deacon Winnie",
+      "priority": "high",
+      "status": "pending",
+      "due": "2026-06-28"
+    },
+    {
+      "id": "2",
+      "title": "Prepare Sunday bulletin",
+      "assignee": "Deacon Winnie",
+      "priority": "medium",
+      "status": "completed",
+      "due": "2026-06-27"
+    },
+    {
+      "id": "3",
+      "title": "Coordinate food bank",
+      "assignee": "Elder James",
+      "priority": "high",
+      "status": "in-progress",
+      "due": "2026-06-30"
+    },
+    {
+      "id": "4",
+      "title": "Review small group reports",
+      "assignee": "Elder James",
+      "priority": "low",
+      "status": "pending",
+      "due": "2026-07-02"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "1",
+      "title": "Bible Knowledge - Week 26",
+      "week": "Week 26, 2026",
+      "date": "2026-06-24",
+      "duration": 15,
+      "participants": 142,
+      "avgScore": 78,
+      "status": "active",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "In which book of the Bible do we find the story of Noah's Ark?",
+          "options": [
+            "Genesis",
+            "Exodus",
+            "Leviticus",
+            "Numbers"
+          ],
+          "correct": 0,
+          "explanation": "The story of Noah's Ark is found in Genesis chapters 6-9."
+        },
+        {
+          "id": "q2",
+          "question": "How many days did Jesus fast in the wilderness?",
+          "options": [
+            "30 days",
+            "40 days",
+            "50 days",
+            "7 days"
+          ],
+          "correct": 1,
+          "explanation": "Jesus fasted for 40 days and 40 nights (Matthew 4:2)."
+        },
+        {
+          "id": "q3",
+          "question": "Who wrote most of the Psalms?",
+          "options": [
+            "Moses",
+            "Solomon",
+            "David",
+            "Asaph"
+          ],
+          "correct": 2,
+          "explanation": "King David is credited with writing many of the Psalms."
+        },
+        {
+          "id": "q4",
+          "question": "What is the shortest verse in the Bible?",
+          "options": [
+            "\"Jesus wept\"",
+            "\"God is love\"",
+            "\"Pray without ceasing\"",
+            "\"It is written\""
+          ],
+          "correct": 0,
+          "explanation": "\"Jesus wept\" (John 11:35) is the shortest verse in the English Bible."
+        },
+        {
+          "id": "q5",
+          "question": "How many books are in the New Testament?",
+          "options": [
+            "24",
+            "27",
+            "30",
+            "39"
+          ],
+          "correct": 1,
+          "explanation": "The New Testament contains 27 books."
+        }
+      ]
+    },
+    {
+      "id": "1782861090805",
+      "title": "Love and Kindness: John 3:16 Deep Dive",
+      "week": "Week 1",
+      "duration": 10,
+      "questions": [
+        {
+          "question": "What is the primary Greek word used for 'love' in John 3:16 that denotes sacrificial, unconditional love?",
+          "options": [
+            "Phileo",
+            "Eros",
+            "Agape",
+            "Storge"
+          ],
+          "correct": 2,
+          "explanation": "'Agape' is the Greek word used to describe God's unconditional, active, and sacrificial love for humanity."
+        },
+        {
+          "question": "According to the sermon, how is God's kindness best demonstrated in John 3:16?",
+          "options": [
+            "Through the creation of the universe",
+            "By giving His only begotten Son",
+            "By sending a flood to cleanse the earth",
+            "Through earthly wealth and prosperity"
+          ],
+          "correct": 1,
+          "explanation": "God's love is active; He demonstrated His supreme kindness by giving His greatest, unique treasure, Jesus Christ, for us."
+        },
+        {
+          "question": "What does the word 'whoever' teach us about the availability of God's salvation?",
+          "options": [
+            "It is only for a selected elite group",
+            "It is limited to those who do enough good deeds",
+            "It is universally available to anyone who trusts in Him",
+            "It is restricted by nationality and race"
+          ],
+          "correct": 2,
+          "explanation": "'Whoever' emphasizes that salvation is open to all people, regardless of their past, background, or social status, through faith."
+        },
+        {
+          "question": "What is the ultimate promise given to those who believe in Him, according to John 3:16?",
+          "options": [
+            "An easy life free of trials",
+            "Physical immortality on earth",
+            "That they should not perish but have everlasting life",
+            "Immediate earthly riches"
+          ],
+          "correct": 2,
+          "explanation": "John 3:16 explicitly promises that believers will escape eternal destruction ('perish') and receive 'everlasting life' in God's presence."
+        },
+        {
+          "question": "Which practical action step was recommended in the sermon's conclusion to reflect God's kindness?",
+          "options": [
+            "Isolating ourselves from non-believers",
+            "Showing unconditional kindness to someone difficult",
+            "Memorizing the entire Gospel of John",
+            "Focusing solely on our personal success"
+          ],
+          "correct": 1,
+          "explanation": "To reflect God's 'agape' love, we are challenged to act in kindness toward others, especially those who may be hard to love, rather than living selfishly."
+        }
+      ],
+      "date": "2026-06-30",
+      "participants": 0,
+      "avgScore": 0,
+      "status": "active"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Young Professionals",
+      "leader": "Sarah Johnson",
+      "members": 1,
+      "day": "Tuesday",
+      "time": "19:00",
+      "location": "Room 3",
+      "memberNames": [
+        "Pastor Benson Nyirenda"
+      ],
+      "bulletins": [
+        {
+          "id": "bull_1782854769772",
+          "author": "Pastor Benson Nyirenda",
+          "content": "Hello \n",
+          "date": "Jun 30, 09:26 PM"
+        }
+      ],
+      "liveStreamLink": "https://www.youtube.com/watch?v=DjrvfRRIdNo"
+    },
+    {
+      "id": "2",
+      "name": "Women of Faith",
+      "leader": "Mary Banda",
+      "members": 32,
+      "day": "Thursday",
+      "time": "18:00",
+      "location": "Fellowship Hall"
+    },
+    {
+      "id": "3",
+      "name": "Men's Fellowship",
+      "leader": "James Wilson",
+      "members": 18,
+      "day": "Saturday",
+      "time": "08:00",
+      "location": "Room 1"
+    },
+    {
+      "id": "4",
+      "name": "Youth Ministry",
+      "leader": "Pastor Benson",
+      "members": 45,
+      "day": "Friday",
+      "time": "18:30",
+      "location": "Youth Hall"
+    },
+    {
+      "id": "5",
+      "name": "Choir",
+      "leader": "Grace Mwale",
+      "members": 28,
+      "day": "Wednesday",
+      "time": "17:00",
+      "location": "Sanctuary"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Pastor Benson Nyirenda",
+      "email": "benson.nyirenda@goodnatureagro.com",
+      "password": "bensonnyirenda",
+      "role": "pastor",
+      "pastorType": "main",
+      "memberSince": "2010-01-01",
+      "mfaEnabled": false,
+      "phone": "+260 977 111111",
+      "spiritualGrowthLevel": "Spiritual Father / Pastor",
+      "xp": 1150
+    },
+    {
+      "id": "2",
+      "name": "Deaconess Celina",
+      "email": "celina@church.org",
+      "password": "celinadecon",
+      "role": "member",
+      "memberSince": "2018-05-12",
+      "mfaEnabled": false,
+      "phone": "+260 977 222222",
+      "spiritualGrowthLevel": "Visitor",
+      "xp": 0,
+      "classEnrollment": "",
+      "isMinistryVolunteer": false,
+      "assignedMembersLog": true,
+      "assignedAttendanceDuty": true,
+      "assignedFinanceDuty": true,
+      "spiritualGrowthNote": ""
+    },
+    {
+      "id": "3",
+      "name": "Pastor John",
+      "email": "john@church.org",
+      "password": "pastorjohn",
+      "role": "elder",
+      "memberSince": "2012-04-10",
+      "mfaEnabled": false,
+      "phone": "+260 977 333333",
+      "spiritualGrowthLevel": "Disciple Maker",
+      "xp": 750
+    },
+    {
+      "id": "4",
+      "name": "Deaconess Winnie Nyirenda",
+      "email": "winnie@church.org",
+      "password": "winnienyirenda",
+      "role": "deacon",
+      "memberSince": "2018-03-20",
+      "mfaEnabled": false,
+      "phone": "+260 977 444444",
+      "spiritualGrowthLevel": "Group Shepherd",
+      "xp": 500
+    },
+    {
+      "id": "5",
+      "name": "Pastor Teddy",
+      "email": "teddy@church.org",
+      "password": "pastorteddy",
+      "role": "pastor",
+      "memberSince": "2011-08-15",
+      "mfaEnabled": false,
+      "phone": "+260 977 555555",
+      "spiritualGrowthLevel": "Spiritual Father / Pastor",
+      "xp": 900
+    },
+    {
+      "id": "6",
+      "name": "Elder Chileshe",
+      "email": "chileshe@church.org",
+      "password": "elderchileshe",
+      "role": "elder",
+      "memberSince": "2015-02-14",
+      "mfaEnabled": false,
+      "phone": "+260 977 666666",
+      "spiritualGrowthLevel": "Disciple Maker",
+      "xp": 600
+    },
+    {
+      "id": "7",
+      "name": "Elder Sem",
+      "email": "sem@church.org",
+      "password": "eldersem",
+      "role": "elder",
+      "memberSince": "2016-11-20",
+      "mfaEnabled": false,
+      "phone": "+260 977 777777",
+      "spiritualGrowthLevel": "Disciple Maker",
+      "xp": 580
+    },
+    {
+      "id": "8",
+      "name": "Deacon Mukandawile",
+      "email": "mukandawile@church.org",
+      "password": "deaconmukandawile",
+      "role": "deacon",
+      "memberSince": "2019-07-05",
+      "mfaEnabled": false,
+      "phone": "+260 977 888888",
+      "spiritualGrowthLevel": "Group Shepherd",
+      "xp": 420
+    },
+    {
+      "id": "9",
+      "name": "System Administrator",
+      "email": "admin@church.org",
+      "password": "admin123",
+      "role": "admin",
+      "memberSince": "2010-01-01",
+      "mfaEnabled": false,
+      "phone": "+260 977 999999"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1782860038739",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Deaconess Celina",
+      "preview": "Fine and how re you?",
+      "content": "Fine and how re you?",
+      "time": "Just now",
+      "unread": true
+    },
+    {
+      "id": "msg_1782855495180",
+      "from": "Deaconess Celina",
+      "to": "Pastor Benson Nyirenda",
+      "preview": "How are you today",
+      "content": "How are you today",
+      "time": "Just now",
+      "unread": true
+    },
+    {
+      "id": "msg_1782855489025",
+      "from": "Deaconess Celina",
+      "to": "Pastor Benson Nyirenda",
+      "preview": "Hello Pastor",
+      "content": "Hello Pastor",
+      "time": "Just now",
+      "unread": true
+    },
+    {
+      "id": "msg_1782854875025",
+      "from": "Lead Pastor Benson",
+      "to": "Benson Nyirenda",
+      "groupId": "1",
+      "preview": "Welcome to Young Professionals!",
+      "content": "Hello Benson Nyirenda,\n\nWelcome to our church's connection group workspace! We have received a request from Pastor Benson Nyirenda to add you to the group: \"Young Professionals\".\n\nYour contact details (Email: benson.nyirenda@iCloud.com, Phone: +260973222168) have been securely reported to the Lead Pastor's desk. We will reach out to you very soon. God bless you!",
+      "timestamp": "2026-06-30T21:27:55.025Z"
+    },
+    {
+      "id": "msg_1782854759264",
+      "from": "System Notification",
+      "groupId": "1",
+      "preview": "Pastor Benson Nyirenda has joined the connection group!",
+      "content": "Pastor Benson Nyirenda joined the connection group fellowship. Welcome!",
+      "time": "Just now",
+      "unread": false
+    },
+    {
+      "id": "msg_1782854650692",
+      "from": "Pastor Benson Nyirenda",
+      "to": "System Administrator",
+      "preview": "Sermon recommendation: \"Walking in Faith\"",
+      "content": "I recommend checking out this sermon outline: \"Walking in Faith\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "1"
+    },
+    {
+      "id": "msg_1782854644892",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Deaconess Winnie Nyirenda",
+      "preview": "Sermon recommendation: \"The Power of Prayer\"",
+      "content": "I recommend checking out this sermon outline: \"The Power of Prayer\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "2"
+    },
+    {
+      "id": "msg_1782854640232",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Deaconess Celina",
+      "preview": "Sermon recommendation: \"The Power of Prayer\"",
+      "content": "I recommend checking out this sermon outline: \"The Power of Prayer\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "2"
+    },
+    {
+      "id": "msg_1782854635870",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Church Admin",
+      "preview": "Sermon recommendation: \"The Power of Prayer\"",
+      "content": "I recommend checking out this sermon outline: \"The Power of Prayer\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "2"
+    },
+    {
+      "id": "msg_1782854628172",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Deacon Mukandawile",
+      "preview": "Sermon recommendation: \"Finding Peace in Chaos\"",
+      "content": "I recommend checking out this sermon outline: \"Finding Peace in Chaos\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "4"
+    },
+    {
+      "id": "msg_1782854621792",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Elder Sem",
+      "preview": "Sermon recommendation: \"Finding Peace in Chaos\"",
+      "content": "I recommend checking out this sermon outline: \"Finding Peace in Chaos\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "4"
+    },
+    {
+      "id": "msg_1782854615711",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Elder Chileshe",
+      "preview": "Sermon recommendation: \"Finding Peace in Chaos\"",
+      "content": "I recommend checking out this sermon outline: \"Finding Peace in Chaos\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "4"
+    },
+    {
+      "id": "msg_1782854609210",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Pastor Teddy",
+      "preview": "Sermon recommendation: \"The Power of Prayer\"",
+      "content": "I recommend checking out this sermon outline: \"The Power of Prayer\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "2"
+    },
+    {
+      "id": "msg_1782854604435",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Deconess Winnie Nyirenda",
+      "preview": "Sermon recommendation: \"Love Your Neighbor\"",
+      "content": "I recommend checking out this sermon outline: \"Love Your Neighbor\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "3"
+    },
+    {
+      "id": "msg_1782854599771",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Pastor John",
+      "preview": "Sermon recommendation: \"The Power of Prayer\"",
+      "content": "I recommend checking out this sermon outline: \"The Power of Prayer\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "2"
+    },
+    {
+      "id": "msg_1782854586472",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Deconess Celina",
+      "preview": "Sermon recommendation: \"The Power of Prayer\"",
+      "content": "I recommend checking out this sermon outline: \"The Power of Prayer\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "2"
+    },
+    {
+      "id": "msg_1782854580656",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Deconess Celina",
+      "preview": "How are you todau",
+      "content": "How are you todau",
+      "time": "Just now",
+      "unread": true
+    },
+    {
+      "id": "msg_1782854575151",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Deconess Celina",
+      "preview": "Hello Decon",
+      "content": "Hello Decon",
+      "time": "Just now",
+      "unread": true
+    },
+    {
+      "id": "msg_1782854460158",
+      "from": "System Administrator",
+      "to": "Deconess Celina",
+      "preview": "Sermon recommendation: \"Finding Peace in Chaos\"",
+      "content": "I recommend checking out this sermon outline: \"Finding Peace in Chaos\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "4"
+    },
+    {
+      "id": "msg_1782854303287",
+      "from": "System Administrator",
+      "to": "Pastor Benson",
+      "preview": "Sermon recommendation: \"Walking in Faith\"",
+      "content": "I recommend checking out this sermon outline: \"Walking in Faith\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "1"
+    },
+    {
+      "id": "msg_1782751706401",
+      "from": "Pastor Benson Nyirenda",
+      "to": "Deacon Winnie Nyirenda",
+      "preview": "Sermon recommendation: \"Walking in Faith\"",
+      "content": "I recommend checking out this sermon outline: \"Walking in Faith\". May it bless your spiritual walk!",
+      "time": "Just now",
+      "unread": true,
+      "attachmentType": "sermon",
+      "attachmentId": "1"
+    },
+    {
+      "id": "msg_1782751538033",
+      "from": "Deacon Winnie Nyirenda",
+      "to": "Deacon Winnie",
+      "preview": "Hello",
+      "content": "Hello",
+      "time": "Just now",
+      "unread": true
+    },
+    {
+      "id": "msg_1782751534384",
+      "from": "Deacon Winnie Nyirenda",
+      "to": "Pastor Benson",
+      "preview": "Hello Pastor",
+      "content": "Hello Pastor",
+      "time": "Just now",
+      "unread": true
+    },
+    {
+      "id": "msg_1782751327252",
+      "from": "John Doe",
+      "to": "Pastor Benson",
+      "preview": "Hello Pastor",
+      "content": "Hello Pastor",
+      "time": "Just now",
+      "unread": true
+    },
+    {
+      "id": "msg1",
+      "from": "Pastor Benson",
+      "preview": "This Sunday's service outline is complete...",
+      "content": "Hello! This Sunday's service outline is complete and published. I look forward to shepherding you all and studying God's word together. Blessings!",
+      "time": "2h ago",
+      "unread": true
+    },
+    {
+      "id": "msg2",
+      "from": "Elder James",
+      "preview": "Please remember to submit your monthly shepherding care logs...",
+      "content": "Grace and peace to you. Deacons and Elders, please ensure your shepherding connection logs are uploaded by Friday so we can review prayer requests in detail. Thank you.",
+      "time": "5h ago",
+      "unread": true
+    },
+    {
+      "id": "msg3",
+      "from": "Church Admin",
+      "preview": "New bulletin posted regarding annual church fundraiser...",
+      "content": "The annual church fundraiser is coming up next month. We need volunteers for hospitality, setting up the tables, and welcoming guests. Please sign up at the office.",
+      "time": "Yesterday",
+      "unread": false
+    },
+    {
+      "id": "msg4",
+      "from": "Sarah Johnson",
+      "preview": "Thank you for the wonderful prayers! God has healed my family...",
+      "content": "I wanted to share a praise report! Thank you for praying for my mother last week. The doctor says she is completely clear now. Praise the Lord!",
+      "time": "2 days ago",
+      "unread": false
+    }
+  ],
+  "loginHistory": [
+    {
+      "id": "1782750164797",
+      "userId": "1",
+      "userName": "John Doe",
+      "userEmail": "member@church.org",
+      "userRole": "member",
+      "timestamp": "2026-06-29T16:22:44.797Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782751247951",
+      "userId": "1",
+      "userName": "John Doe",
+      "userEmail": "member@church.org",
+      "userRole": "member",
+      "timestamp": "2026-06-29T16:40:47.951Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782751339953",
+      "userId": "2",
+      "userName": "Deacon Winnie Nyirenda",
+      "userEmail": "deacon@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-29T16:42:19.953Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782751549413",
+      "userId": "3",
+      "userName": "James Wilson",
+      "userEmail": "elder@church.org",
+      "userRole": "elder",
+      "timestamp": "2026-06-29T16:45:49.413Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782751614498",
+      "userId": "4",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "pastor@church.org",
+      "userRole": "pastor",
+      "timestamp": "2026-06-29T16:46:54.498Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782751727911",
+      "userId": "3",
+      "userName": "James Wilson",
+      "userEmail": "elder@church.org",
+      "userRole": "elder",
+      "timestamp": "2026-06-29T16:48:47.911Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782751908190",
+      "userId": "1",
+      "userName": "John Doe",
+      "userEmail": "member@church.org",
+      "userRole": "member",
+      "timestamp": "2026-06-29T16:51:48.190Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753209247",
+      "userId": "4",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "pastor@church.org",
+      "userRole": "pastor",
+      "timestamp": "2026-06-29T17:13:29.247Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753267783",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "deacon@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:14:27.783Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753268878",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "deacon@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:14:28.878Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753269390",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "deacon@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:14:29.390Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753270178",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "deacon@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:14:30.178Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753277664",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "deacon@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:14:37.664Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753278319",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "deacon@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:14:38.319Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753281680",
+      "userId": "1",
+      "userName": "John Doe",
+      "userEmail": "member@church.org",
+      "userRole": "member",
+      "timestamp": "2026-06-29T17:14:41.680Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753299827",
+      "userId": "5",
+      "userName": "Admin User",
+      "userEmail": "admin@church.org",
+      "userRole": "admin",
+      "timestamp": "2026-06-29T17:14:59.827Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753421909",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "deacon@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:17:01.909Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753423314",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "deacon@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:17:03.314Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753428828",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "deacon@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:17:08.828Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753447566",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "winne@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:17:27.566Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753451415",
+      "userId": "4",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "pastor@church.org",
+      "userRole": "pastor",
+      "timestamp": "2026-06-29T17:17:31.415Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753522215",
+      "userId": "5",
+      "userName": "Deacon Winnie Nyirenda",
+      "userEmail": "deacon@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-29T17:18:42.215Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753562984",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:19:22.984Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753565903",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:19:25.903Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753566414",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:19:26.414Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753566956",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:19:26.956Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753568842",
+      "userId": "4",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "pastor@church.org",
+      "userRole": "pastor",
+      "timestamp": "2026-06-29T17:19:28.842Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753590271",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:19:50.272Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753594022",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:19:54.022Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753594629",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:19:54.629Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753595097",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:19:55.097Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753595482",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:19:55.482Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753597467",
+      "userId": "3",
+      "userName": "James Wilson",
+      "userEmail": "elder@church.org",
+      "userRole": "elder",
+      "timestamp": "2026-06-29T17:19:57.467Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753655215",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:20:55.215Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753663528",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:21:03.528Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753698268",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:21:38.268Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753706453",
+      "userId": "5",
+      "userName": "Deacon Winnie Nyirenda",
+      "userEmail": "deacon@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-29T17:21:46.453Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753793549",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:23:13.549Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753794699",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:23:14.699Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753794910",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:23:14.910Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753821308",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:23:41.308Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753821772",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:23:41.772Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753821826",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:23:41.826Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753822339",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:23:42.339Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753870606",
+      "userId": "5",
+      "userName": "Deacon Winnie Nyirenda",
+      "userEmail": "deacon@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-29T17:24:30.606Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753893994",
+      "userId": "3",
+      "userName": "James Wilson",
+      "userEmail": "elder@church.org",
+      "userRole": "elder",
+      "timestamp": "2026-06-29T17:24:53.994Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753953630",
+      "userId": "5",
+      "userName": "Deacon Winnie Nyirenda",
+      "userEmail": "deacon@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-29T17:25:53.630Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753963759",
+      "userId": "1",
+      "userName": "John Doe",
+      "userEmail": "member@church.org",
+      "userRole": "member",
+      "timestamp": "2026-06-29T17:26:03.759Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782753979514",
+      "userId": "5",
+      "userName": "Deacon Winnie Nyirenda",
+      "userEmail": "deacon@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-29T17:26:19.514Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754043150",
+      "userId": "3",
+      "userName": "James Wilson",
+      "userEmail": "elder@church.org",
+      "userRole": "elder",
+      "timestamp": "2026-06-29T17:27:23.150Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754063434",
+      "userId": "5",
+      "userName": "Deacon Winnie Nyirenda",
+      "userEmail": "deacon@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-29T17:27:43.434Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754074584",
+      "userId": "4",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "pastor@church.org",
+      "userRole": "pastor",
+      "timestamp": "2026-06-29T17:27:54.584Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754334338",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:32:14.338Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754335314",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:32:15.314Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754335742",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:32:15.742Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754336053",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:32:16.053Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754336425",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:32:16.425Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754336657",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:32:16.657Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754336851",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:32:16.851Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754337350",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "admin@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-29T17:32:17.350Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782754341893",
+      "userId": "5",
+      "userName": "Deacon Winnie Nyirenda",
+      "userEmail": "deacon@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-29T17:32:21.893Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782854242588",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "john@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-30T21:17:22.588Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782854249786",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "john@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-30T21:17:29.786Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782854254508",
+      "userId": "9",
+      "userName": "System Administrator",
+      "userEmail": "admin@church.org",
+      "userRole": "admin",
+      "timestamp": "2026-06-30T21:17:34.508Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782854504699",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "Amilord@church.com",
+      "userRole": "none",
+      "timestamp": "2026-06-30T21:21:44.699Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782854508598",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "Amilord@church.com",
+      "userRole": "none",
+      "timestamp": "2026-06-30T21:21:48.598Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782854516840",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "nyirenda3rd@gmail.com",
+      "userRole": "none",
+      "timestamp": "2026-06-30T21:21:56.840Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782854524023",
+      "userId": "1",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "benson.nyirenda@goodnatureagro.com",
+      "userRole": "pastor",
+      "timestamp": "2026-06-30T21:22:04.023Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782855064642",
+      "userId": "1",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "benson.nyirenda@goodnatureagro.com",
+      "userRole": "pastor",
+      "timestamp": "2026-06-30T21:31:04.642Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782855278574",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "Amilord@church.com",
+      "userRole": "none",
+      "timestamp": "2026-06-30T21:34:38.574Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782855283823",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "Amilord@church.com",
+      "userRole": "none",
+      "timestamp": "2026-06-30T21:34:43.823Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782855371884",
+      "userId": "unknown",
+      "userName": "Anonymous Guest",
+      "userEmail": "celina@church.org",
+      "userRole": "none",
+      "timestamp": "2026-06-30T21:36:11.884Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Unknown Browser OS",
+      "status": "Failed (Invalid Credentials)",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782855433815",
+      "userId": "2",
+      "userName": "Deaconess Celina",
+      "userEmail": "celina@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-30T21:37:13.815Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782858452972",
+      "userId": "2",
+      "userName": "Deaconess Celina",
+      "userEmail": "celina@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-30T22:27:32.972Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782859196316",
+      "userId": "2",
+      "userName": "Deaconess Celina",
+      "userEmail": "celina@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-30T22:39:56.316Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782859879942",
+      "userId": "2",
+      "userName": "Deaconess Celina",
+      "userEmail": "celina@church.org",
+      "userRole": "deacon",
+      "timestamp": "2026-06-30T22:51:19.942Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782859929825",
+      "userId": "1",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "benson.nyirenda@goodnatureagro.com",
+      "userRole": "pastor",
+      "timestamp": "2026-06-30T22:52:09.825Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782860169361",
+      "userId": "1",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "benson.nyirenda@goodnatureagro.com",
+      "userRole": "pastor",
+      "timestamp": "2026-06-30T22:56:09.361Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782860243129",
+      "userId": "2",
+      "userName": "Deaconess Celina",
+      "userEmail": "celina@church.org",
+      "userRole": "member",
+      "timestamp": "2026-06-30T22:57:23.129Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782860292756",
+      "userId": "1",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "benson.nyirenda@goodnatureagro.com",
+      "userRole": "pastor",
+      "timestamp": "2026-06-30T22:58:12.756Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782860315779",
+      "userId": "2",
+      "userName": "Deaconess Celina",
+      "userEmail": "celina@church.org",
+      "userRole": "member",
+      "timestamp": "2026-06-30T22:58:35.779Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782860325023",
+      "userId": "1",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "benson.nyirenda@goodnatureagro.com",
+      "userRole": "pastor",
+      "timestamp": "2026-06-30T22:58:45.023Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782860343573",
+      "userId": "2",
+      "userName": "Deaconess Celina",
+      "userEmail": "celina@church.org",
+      "userRole": "member",
+      "timestamp": "2026-06-30T22:59:03.573Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782860912958",
+      "userId": "2",
+      "userName": "Deaconess Celina",
+      "userEmail": "celina@church.org",
+      "userRole": "member",
+      "timestamp": "2026-06-30T23:08:32.958Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782860942208",
+      "userId": "1",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "benson.nyirenda@goodnatureagro.com",
+      "userRole": "pastor",
+      "timestamp": "2026-06-30T23:09:02.208Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782861251123",
+      "userId": "2",
+      "userName": "Deaconess Celina",
+      "userEmail": "celina@church.org",
+      "userRole": "member",
+      "timestamp": "2026-06-30T23:14:11.123Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    },
+    {
+      "id": "1782861328389",
+      "userId": "1",
+      "userName": "Pastor Benson Nyirenda",
+      "userEmail": "benson.nyirenda@goodnatureagro.com",
+      "userRole": "pastor",
+      "timestamp": "2026-06-30T23:15:28.389Z",
+      "ipAddress": "197.221.144.15 (Lusaka, Zambia)",
+      "device": "Chrome / Windows 11 (Secure Web)",
+      "status": "Success",
+      "mfaVerified": false
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1782854875025",
+      "title": "Report to Lead Pastor: Connection Request",
+      "message": "Pastor Benson Nyirenda requested to add Benson Nyirenda (Email: benson.nyirenda@iCloud.com, Phone: +260973222168) to the group: Young Professionals. Attention: Lead Pastor.",
+      "type": "connection_request",
+      "timestamp": "2026-06-30T21:27:55.025Z",
+      "fromUser": "Pastor Benson Nyirenda",
+      "targetGroupId": "1",
+      "personName": "Benson Nyirenda",
+      "email": "benson.nyirenda@iCloud.com",
+      "phone": "+260973222168",
+      "status": "pending",
+      "isLeadPastorReport": true
+    },
+    {
+      "id": "notif_1",
+      "title": "Request to Add Member",
+      "message": "Brother Abel Phiri would like to join the Men's Fellowship Small Group.",
+      "type": "connection_request",
+      "timestamp": "2026-06-29T11:44:10.476Z",
+      "fromUser": "Brother Abel Phiri",
+      "targetGroupId": "3",
+      "personName": "Abel Phiri",
+      "status": "pending"
+    },
+    {
+      "id": "notif_2",
+      "title": "Connection Invitation Request",
+      "message": "Sister Martha Banda requested to add her cousin Mary Banda to the Women of Faith Group.",
+      "type": "connection_request",
+      "timestamp": "2026-06-29T08:44:10.476Z",
+      "fromUser": "Sister Martha Banda",
+      "targetGroupId": "2",
+      "personName": "Mary Banda",
+      "status": "pending"
+    },
+    {
+      "id": "notif_3",
+      "title": "New Believer Connection",
+      "message": "Pastor Benson requested a deacon or elder to connect with newly baptized member John Tembo.",
+      "type": "connection_request",
+      "timestamp": "2026-06-28T13:44:10.476Z",
+      "fromUser": "Pastor Benson",
+      "targetGroupId": "1",
+      "personName": "John Tembo",
+      "status": "pending"
+    }
+  ],
+  "discipleshipQualifications": [
+    {
+      "id": "qual_1782753237589_445",
+      "memberId": "5",
+      "memberName": "Deacon Winnie Nyirenda",
+      "stage": "leader",
+      "stageLabel": "Group Shepherd",
+      "submittedBy": "Pastor Benson Nyirenda",
+      "submittedRole": "pastor",
+      "status": "approved",
+      "submittedAt": "2026-06-29T17:13:57.589Z",
+      "approvedAt": "2026-06-29T17:13:57.589Z",
+      "approvedBy": "Pastor Benson Nyirenda"
+    },
+    {
+      "id": "qual_1782753394579_121",
+      "memberId": "4",
+      "memberName": "Emily Davis",
+      "stage": "baptized",
+      "stageLabel": "Water Baptized",
+      "submittedBy": "Admin User",
+      "submittedRole": "admin",
+      "status": "approved",
+      "submittedAt": "2026-06-29T17:16:34.579Z",
+      "approvedAt": "2026-06-29T17:16:34.579Z",
+      "approvedBy": "Admin User"
+    },
+    {
+      "id": "qual_1782753622393_577",
+      "memberId": "1",
+      "memberName": "John Doe",
+      "stage": "volunteer",
+      "stageLabel": "Ministry Volunteer",
+      "submittedBy": "James Wilson",
+      "submittedRole": "elder",
+      "status": "approved",
+      "submittedAt": "2026-06-29T17:20:22.393Z",
+      "approvedAt": "2026-06-30T21:25:47.332Z",
+      "approvedBy": "Pastor Benson Nyirenda"
+    },
+    {
+      "id": "qual_1782854716182_566",
+      "memberId": "1",
+      "memberName": "Pastor Benson Nyirenda",
+      "stage": "leader",
+      "stageLabel": "Group Shepherd",
+      "submittedBy": "Pastor Benson Nyirenda",
+      "submittedRole": "pastor",
+      "status": "approved",
+      "submittedAt": "2026-06-30T21:25:16.182Z",
+      "approvedAt": "2026-06-30T21:25:16.182Z",
+      "approvedBy": "Pastor Benson Nyirenda"
+    },
+    {
+      "id": "qual_1782854743130_712",
+      "memberId": "2",
+      "memberName": "Deaconess Celina",
+      "stage": "volunteer",
+      "stageLabel": "Ministry Volunteer",
+      "submittedBy": "Pastor Benson Nyirenda",
+      "submittedRole": "pastor",
+      "status": "approved",
+      "submittedAt": "2026-06-30T21:25:43.130Z",
+      "approvedAt": "2026-06-30T21:25:43.130Z",
+      "approvedBy": "Pastor Benson Nyirenda"
+    }
+  ],
+  "smsBroadcasts": [
+    {
+      "id": "sms_1782753729277",
+      "sender": "Deacon Winnie Nyirenda",
+      "message": "Hello",
+      "timestamp": "2026-06-29T17:22:09.277Z",
+      "recipientCount": 5,
+      "recipientNames": [
+        "John Doe (+260 977 123456)",
+        "Sarah Johnson (+260 966 234567)",
+        "Michael Brown (+260 955 345678)",
+        "Emily Davis (+260 977 456789)",
+        "Deacon Winnie Nyirenda (+260 966 567890)"
+      ]
+    }
+  ],
+  "dashboardStats": [
+    {
+      "id": "sermons_watched",
+      "label": "Sermons Watched",
+      "val": "12",
+      "imageUrl": "https://images.unsplash.com/photo-1526976734720-0e03a2258d8e?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "services_attended",
+      "label": "Services Attended",
+      "val": "8",
+      "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "groups_joined",
+      "label": "Groups Joined",
+      "val": "3",
+      "imageUrl": "https://images.unsplash.com/photo-1543807535-eceef0bc6599?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "prayer_requests",
+      "label": "Prayer Requests",
+      "val": "2",
+      "imageUrl": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&auto=format&fit=crop&q=60"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "entities": {
+    "Church": {
+      "title": "Church",
+      "description": "Information about a specific church parish.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "address": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": { "type": "string" },
+        "denomination": { "type": "string" },
+        "color": { "type": "string" }
+      },
+      "required": ["id", "name"]
+    },
+    "Member": {
+      "title": "Member",
+      "description": "Church assembly member or guest entry.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "memberSince": { "type": "string" },
+        "status": { "type": "string", "enum": ["active", "inactive"] },
+        "role": { "type": "string", "enum": ["member", "deacon", "elder", "pastor", "admin"] },
+        "attendance": { "type": "number" },
+        "groups": { "type": "array" },
+        "assignedAttendanceDuty": { "type": "boolean" },
+        "assignedFinanceDuty": { "type": "boolean" }
+      },
+      "required": ["id", "name", "email", "role"]
+    },
+    "User": {
+      "title": "User",
+      "description": "Application access login credentials account.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "password": { "type": "string" },
+        "phone": { "type": "string" },
+        "role": { "type": "string", "enum": ["member", "deacon", "elder", "pastor", "admin"] },
+        "memberSince": { "type": "string" },
+        "mfaEnabled": { "type": "boolean" },
+        "mfaCode": { "type": "string" }
+      },
+      "required": ["id", "name", "email", "password", "role"]
+    },
+    "Event": {
+      "title": "Event",
+      "description": "Scheduled church service or outreach event.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "date": { "type": "string" },
+        "time": { "type": "string" },
+        "location": { "type": "string" },
+        "type": { "type": "string" },
+        "attendees": { "type": "number" },
+        "capacity": { "type": "number" }
+      },
+      "required": ["id", "title", "date", "time"]
+    },
+    "Sermon": {
+      "title": "Sermon",
+      "description": "Sermon study materials, outline notes, and recording references.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "speaker": { "type": "string" },
+        "date": { "type": "string" },
+        "duration": { "type": "string" },
+        "views": { "type": "number" },
+        "category": { "type": "string" },
+        "scripture": { "type": "string" },
+        "notes": { "type": "string" },
+        "videoUrl": { "type": "string" },
+        "content": { "type": "string" }
+      },
+      "required": ["id", "title", "speaker", "date"]
+    },
+    "PrayerRequest": {
+      "title": "PrayerRequest",
+      "description": "Intercessory prayer requests.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "member": { "type": "string" },
+        "category": { "type": "string" },
+        "request": { "type": "string" },
+        "date": { "type": "string" },
+        "status": { "type": "string", "enum": ["active", "answered"] },
+        "prayers": { "type": "number" },
+        "private": { "type": "boolean" },
+        "prayingUsers": { "type": "array" }
+      },
+      "required": ["id", "member", "request", "date", "status"]
+    },
+    "Announcement": {
+      "title": "Announcement",
+      "description": "Pinned messages and general notices.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string" },
+        "content": { "type": "string" },
+        "date": { "type": "string" },
+        "pinned": { "type": "boolean" },
+        "expires": { "type": "string" }
+      },
+      "required": ["id", "title", "content", "date"]
+    },
+    "FinancialTransaction": {
+      "title": "FinancialTransaction",
+      "description": "Income giving ledger entries and expenditure accounts.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "type": { "type": "string", "enum": ["income", "expense"] },
+        "category": { "type": "string" },
+        "amount": { "type": "number" },
+        "date": { "type": "string" },
+        "name": { "type": "string" },
+        "submittedBy": { "type": "string" },
+        "submittedRole": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected", "pending_mobile_money"] },
+        "reference": { "type": "string" },
+        "approvedBy": { "type": "string" },
+        "approvedDate": { "type": "string" }
+      },
+      "required": ["id", "type", "category", "amount", "date"]
+    },
+    "AttendanceRecord": {
+      "title": "AttendanceRecord",
+      "description": "Weekly congregational attendance metrics.",
+      "type": "object",
+      "properties": {
+        "week": { "type": "string" },
+        "sunday": { "type": "number" },
+        "midweek": { "type": "number" },
+        "youth": { "type": "number" },
+        "male": { "type": "number" },
+        "female": { "type": "number" },
+        "kids": { "type": "number" },
+        "notes": { "type": "string" }
+      },
+      "required": ["week", "sunday"]
+    },
+    "Task": {
+      "title": "Task",
+      "description": "Care visitation or deacon administrative assignments.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "assignee": { "type": "string" },
+        "priority": { "type": "string", "enum": ["low", "medium", "high"] },
+        "status": { "type": "string", "enum": ["pending", "in-progress", "completed"] },
+        "due": { "type": "string" }
+      },
+      "required": ["id", "title", "assignee", "status"]
+    },
+    "Quiz": {
+      "title": "Quiz",
+      "description": "Weekly biblical assessments.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "week": { "type": "string" },
+        "date": { "type": "string" },
+        "duration": { "type": "number" },
+        "participants": { "type": "number" },
+        "avgScore": { "type": "number" },
+        "status": { "type": "string" },
+        "questions": { "type": "array" }
+      },
+      "required": ["id", "title", "week", "date"]
+    },
+    "ConnectionGroup": {
+      "title": "ConnectionGroup",
+      "description": "Connection connection small group profile.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "leader": { "type": "string" },
+        "members": { "type": "number" },
+        "day": { "type": "string" },
+        "time": { "type": "string" },
+        "location": { "type": "string" },
+        "lessonTitle": { "type": "string" },
+        "discussionNotebook": { "type": "string" }
+      },
+      "required": ["id", "name", "leader"]
+    },
+    "Message": {
+      "title": "Message",
+      "description": "Inbox message, system notification, or shepherding log alert.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "from": { "type": "string" },
+        "to": { "type": "string" },
+        "preview": { "type": "string" },
+        "content": { "type": "string" },
+        "time": { "type": "string" },
+        "unread": { "type": "boolean" },
+        "groupId": { "type": "string" }
+      },
+      "required": ["id", "from", "preview", "content", "time"]
+    },
+    "Notification": {
+      "title": "Notification",
+      "description": "Alert notification displayed in topbar center.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "message": { "type": "string" },
+        "type": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "fromUser": { "type": "string" },
+        "targetGroupId": { "type": "string" },
+        "personName": { "type": "string" },
+        "status": { "type": "string" },
+        "transactionId": { "type": "string" }
+      },
+      "required": ["id", "title", "message", "type", "timestamp"]
+    }
+  },
+  "firestore": {
+    "/churches": {
+      "schema": "Church",
+      "description": "Global assembly register."
+    },
+    "/members": {
+      "schema": "Member",
+      "description": "Assembly direct member register."
+    },
+    "/users": {
+      "schema": "User",
+      "description": "Access accounts containing secure portals."
+    },
+    "/events": {
+      "schema": "Event",
+      "description": "Sunday assemblies and mid-week prayer meetings."
+    },
+    "/sermons": {
+      "schema": "Sermon",
+      "description": "Pastorial outlines, teachings and audio/video links."
+    },
+    "/prayerRequests": {
+      "schema": "PrayerRequest",
+      "description": "Congregation intercessory petitions."
+    },
+    "/announcements": {
+      "schema": "Announcement",
+      "description": "Sabbath notices and fundraising campaigns."
+    },
+    "/transactions": {
+      "schema": "FinancialTransaction",
+      "description": "Offering income, mobile money transfers, and ministry expense ledger."
+    },
+    "/attendance": {
+      "schema": "AttendanceRecord",
+      "description": "Headcount logging sheets."
+    },
+    "/tasks": {
+      "schema": "Task",
+      "description": "Deacon home-care visitations and small task board."
+    },
+    "/quizzes": {
+      "schema": "Quiz",
+      "description": "Scripture assessments and weekly trivia."
+    },
+    "/groups": {
+      "schema": "ConnectionGroup",
+      "description": "Assigned connection and shepherding connection segments."
+    },
+    "/messages": {
+      "schema": "Message",
+      "description": "Direct fellowship messages and small group bulletin items."
+    },
+    "/notifications": {
+      "schema": "Notification",
+      "description": "Topbar notifications, approval requests, and connection alerts."
+    }
+  }
+}

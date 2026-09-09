@@ -1,0 +1,6 @@
+{
+  "name": "Church Kingly Anointed App",
+  "description": "A comprehensive, multi-role church portal supporting members, events, sermon library, announcements, prayer requests, interactive quizzes, financial tracking, task assignment, and an AI sermon generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
