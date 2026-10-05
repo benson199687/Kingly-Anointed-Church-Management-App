@@ -1,10 +1,41 @@
 # 🌐 Church Discipleship Academy - Hosting & Deployment Guide
 
-This guide provides step-by-step instructions for deploying and hosting this full-stack application (Vite + React frontend and Express + Node backend) on **Vercel** and on **standard web hosts** (such as Render, Railway, Heroku, or a VPS).
+This guide provides step-by-step instructions for deploying and hosting this full-stack application on **Cloudflare Pages**, **Vercel**, and **dedicated web hosts** (Render, Railway, Heroku, or VPS).
 
 ---
 
-## ⚡ Deployment Option 1: Vercel (Recommended for Serverless)
+## ☁️ Deployment Option 1: Cloudflare Pages (Fast & Free Edge Hosting)
+
+Cloudflare Pages provides global CDN edge hosting with unlimited bandwidth on the free tier. We have configured `public/_redirects` to ensure SPA routes load without 404s.
+
+### Method A: Connect Cloudflare Pages to your GitHub Repo (Recommended)
+1. **Ensure your GitHub repository has all files** (see troubleshooting below).
+2. Go to the [Cloudflare Dashboard](https://dash.cloudflare.com/) and sign in.
+3. In the left navigation, click **Workers & Pages** > **Create application** > **Pages** tab.
+4. Select **Connect to Git** and choose your repository: `benson199687/ChurchApp`.
+5. Configure the build settings:
+   - **Framework preset**: `Vite` (or `None`)
+   - **Build command**: `npm run build`
+   - **Build output directory**: `dist`
+   - **Root directory**: `/` (leave empty / default)
+6. Under **Environment variables**, add:
+   - `NODE_VERSION`: `20`
+7. Click **Save and Deploy**. Cloudflare will build your app and give you a free live URL: `https://churchapp.pages.dev`.
+
+### Method B: Deploy in 1 Minute via Wrangler CLI (No Git Required)
+If you have Node.js installed on your computer, you can deploy the built application directly from your terminal:
+```powershell
+# 1. Build the production bundle
+npm run build
+
+# 2. Deploy directly to Cloudflare Pages
+npx wrangler pages deploy dist --project-name=church-app
+```
+Follow the one-time browser login prompt, and Cloudflare will instantly publish your site!
+
+---
+
+## ⚡ Deployment Option 2: Vercel (Serverless)
 
 Vercel is the easiest and fastest way to host your full-stack Vite + Express application. 
 
